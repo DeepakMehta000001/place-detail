@@ -35,8 +35,8 @@
   export default {
     data : function(){
       return{
-        place: 'Bageshwar',
-        district: 'Bageshwar',
+        place: 'Nainital',
+        district: 'Nainital',
         showPhotosLimit : 3,
         imageLoaded : false,
         imgUrls : [
