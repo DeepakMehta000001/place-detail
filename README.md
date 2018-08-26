@@ -1,6 +1,6 @@
 # place-detail
 
-> A Vue.js project
+> A Vue.js project deployed here : http://vue.uttarakhandtraveller.com/place-detail/
 
 ## Build Setup
 
