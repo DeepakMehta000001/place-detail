@@ -15,7 +15,7 @@
         <div class="col-sm-12">
           <div class="row">
           <div class="col-md-6">
-            <button type="button" class="btn btn-primary" @click="loadMorePhotos">View More Photos</button>
+            <button v-show="showPhotosLimit >= imgUrls.length ? false: true" type="button" class="btn btn-primary" @click="loadMorePhotos">View More Photos</button>
           </div>
           <div v-show="imageLoaded" class="col-md-6">
             <div class="square-spinner"></div>
